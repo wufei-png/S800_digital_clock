@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 User, 1, LIC=DSNVE-5LBUA-REUH3-AE55I-8TH50-253NA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.22
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DCM.DLL V1.13.9.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+D:\Desktop\学习\大二下\工科创\04-CM4实验-给学生\06-例程\S800V0.7-students\dazouye\EXP000\EXP000\exp000.uvprojx
+Project File Date:  07/02/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling exp000.c...
+exp000.c(68): warning:  #1295-D: Deprecated declaration daojishi - give arg types
+  void daojishi();
+exp000.c(69): warning:  #1295-D: Deprecated declaration jieqi - give arg types
+  void jieqi();
+exp000.c(70): warning:  #1295-D: Deprecated declaration reset - give arg types
+  void reset();
+exp000.c(339): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+          if(RxBuf[3]=='D' && RxBuf[4]=='A' && RxBuf[5]=='T' && RxBuf[6]=='E') {SerialOutput[0]=(Time[5]/10)+'0';SerialOutput[1]=(Time[5]%10)+'0';SerialOutput[2]='.';SerialOutput[3]=(Time[6]/10)+'0';SerialOutput[4]=(Time[6]%10)+'0';UARTStringPut(SerialOutput);}
+exp000.c(340): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+          else if(RxBuf[3]=='T' && RxBuf[4]=='I' && RxBuf[5]=='M' && RxBuf[6]=='E') {SerialOutput[0]=(Time[1]/10)+'0';SerialOutput[1]=(Time[1]%10)+'0';SerialOutput[2]=':';SerialOutput[3]=(Time[2]/10)+'0';SerialOutput[4]=(Time[2]%10)+'0';UARTStringPut(SerialOutput);}
+exp000.c(341): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          else UARTStringPut((uint8_t *)"Invalid Input!\r\n");
+exp000.c(344): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                if(RxBuf[3]=='D' && RxBuf[4]=='A' && RxBuf[5]=='T' && RxBuf[6]=='E') {Time[5]=(RxBuf[7]-'0')*10+(RxBuf[8]-'0');Time[6]=(RxBuf[9]-'0')*10+(RxBuf[10]-'0');UARTStringPut((uint8_t *)"Successed!\r\n");}
+exp000.c(345): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                else if(RxBuf[3]=='T' && RxBuf[4]=='I' && RxBuf[5]=='M' && RxBuf[6]=='E') {Time[1]=(RxBuf[7]-'0')*10+(RxBuf[8]-'0');Time[2]=(RxBuf[9]-'0')*10+(RxBuf[10]-'0');UARTStringPut((uint8_t *)"Successed!!\r\n");}
+exp000.c(347): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                  if(RxBuf[6]=='1') {alarm_hour[1]=(RxBuf[7]-'0')*10+(RxBuf[8]-'0');alarm_min[1]=(RxBuf[9]-'0')*10+(RxBuf[10]-'0');alarm_flag[0]=1;UARTStringPut((uint8_t *)"Successed!\r\n");}
+exp000.c(348): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                  else if(RxBuf[6]=='2') {alarm_hour[2]=(RxBuf[7]-'0')*10+(RxBuf[8]-'0');alarm_min[2]=(RxBuf[9]-'0')*10+(RxBuf[10]-'0');alarm_flag[1]=1;UARTStringPut((uint8_t *)"Successed!\r\n");}
+exp000.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                          else UARTStringPut((uint8_t *)"Invalid Input!\r\n");
+exp000.c(351): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+                else UARTStringPut((uint8_t *)"Invalid Input!\r\n");
+exp000.c(353): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+        else if(RxBuf[0]=='R' && RxBuf[1]=='E' && RxBuf[2]=='S' && RxBuf[3]=='E' && RxBuf[4]=='T'){reset();UARTStringPut((uint8_t *)"Reseted!\r\n");}
+exp000.c(354): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+        else UARTStringPut((uint8_t *)"Invalid Input!\r\n");
+exp000.c(400): warning:  #550-D: variable "result"  was set but never used
+    uint8_t result;
+exp000.c(440): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+    UARTStringPut((uint8_t *)"\r\nHello!\r\n");
+exp000.c(475): warning:  #550-D: variable "rop"  was set but never used
+    uint8_t value,rop;
+exp000.c(991): warning:  #167-D: argument of type "int *" is incompatible with parameter of type "uint32_t *"
+            time_module(Time_dj,0);
+exp000.c(1119): warning:  #174-D: expression has no effect
+   xindex_step;
+exp000.c: 19 warnings, 0 errors
+linking...
+Program Size: Code=11612 RO-data=1960 RW-data=380 ZI-data=1212  
+FromELF: creating hex file...
+".\Objects\exp1.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil::Device:Startup:1.0.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\Desktop\学习\大二下\工科创\04-CM4实验-给学生\06-例程\S800V0.7-students\dazouye\EXP000\EXP000\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C129
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  Device\Include\TM4C129\TM4C129.h
+      Source file:   Device\Source\ARM\startup_TM4C129.s
+      Source file:   Device\Source\system_TM4C129.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.\objects\dazuoye.o: dazuoye.c
+.\objects\dazuoye.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dazuoye.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\dazuoye.o: .\inc\hw_memmap.h
+.\objects\dazuoye.o: .\driverlib\debug.h
+.\objects\dazuoye.o: .\driverlib\gpio.h
+.\objects\dazuoye.o: .\inc\hw_i2c.h
+.\objects\dazuoye.o: .\inc\hw_types.h
+.\objects\dazuoye.o: .\driverlib\i2c.h
+.\objects\dazuoye.o: .\driverlib\pin_map.h
+.\objects\dazuoye.o: .\driverlib\sysctl.h
+.\objects\dazuoye.o: .\driverlib\SysTick.h
+.\objects\dazuoye.o: .\driverlib\interrupt.h
+.\objects\dazuoye.o: .\driverlib\uart.h
+.\objects\dazuoye.o: .\inc\tm4c1294ncpdt.h
+.\objects\dazuoye.o: .\driverlib\pwm.h
+.\objects\dazuoye.o: .\driverlib\eeprom.h

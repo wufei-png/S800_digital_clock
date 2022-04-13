@@ -1,0 +1,16 @@
+.\objects\518030910079.o: 518030910079.c
+.\objects\518030910079.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\518030910079.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\518030910079.o: .\inc\hw_memmap.h
+.\objects\518030910079.o: .\driverlib\debug.h
+.\objects\518030910079.o: .\driverlib\gpio.h
+.\objects\518030910079.o: .\inc\hw_i2c.h
+.\objects\518030910079.o: .\inc\hw_types.h
+.\objects\518030910079.o: .\driverlib\i2c.h
+.\objects\518030910079.o: .\driverlib\pin_map.h
+.\objects\518030910079.o: .\driverlib\sysctl.h
+.\objects\518030910079.o: .\driverlib\SysTick.h
+.\objects\518030910079.o: .\driverlib\interrupt.h
+.\objects\518030910079.o: .\driverlib\uart.h
+.\objects\518030910079.o: .\inc\tm4c1294ncpdt.h
+.\objects\518030910079.o: .\driverlib\pwm.h

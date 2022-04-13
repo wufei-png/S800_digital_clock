@@ -1,0 +1,17 @@
+.\objects\exp000.o: exp000.c
+.\objects\exp000.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\exp000.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\exp000.o: .\inc\hw_memmap.h
+.\objects\exp000.o: .\driverlib\debug.h
+.\objects\exp000.o: .\driverlib\gpio.h
+.\objects\exp000.o: .\inc\hw_i2c.h
+.\objects\exp000.o: .\inc\hw_types.h
+.\objects\exp000.o: .\driverlib\i2c.h
+.\objects\exp000.o: .\driverlib\pin_map.h
+.\objects\exp000.o: .\driverlib\sysctl.h
+.\objects\exp000.o: .\driverlib\SysTick.h
+.\objects\exp000.o: .\driverlib\interrupt.h
+.\objects\exp000.o: .\driverlib\uart.h
+.\objects\exp000.o: .\inc\tm4c1294ncpdt.h
+.\objects\exp000.o: .\driverlib\pwm.h
+.\objects\exp000.o: .\driverlib\eeprom.h
